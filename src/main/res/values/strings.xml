@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">GITADORA Info</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu -->
+    <string name="menu_login">로그인</string>
+    <string name="menu_home">홈</string>
+    <string name="menu_search">검색</string>
+    <string name="menu_profile">내 프로필</string>
+    <string name="menu_srank">스킬 랭킹</string>
+    <string name="menu_pattern">패턴 및 랭킹</string>
+    <string name="menu_tower">기타도라의 탑</string>
+    <string name="menu_setting">설정</string>
+    <string name="menu_info">정보</string>
+
+    <!-- main -->
+    <string name="tv_recent">최근 업데이트 10명</string>
+
+    <!-- login -->
+    <string name="tv_login_desc">GITADORA Info에 로그인 하기 위해서는 구글 계정 사용해야 합니다.\n한 번 로그인하면 로그아웃 전까지는 계정 로그인 상태가 항상 유지됩니다.</string>
+    <string name="tv_login_qnalink">GITADORA Info는 구글 계정을 사용한 로그인을 왜, 어떻게 사용할까요? (클릭)</string>
+
+    <string name="tv_login_fail_title">로그인 실패</string>
+    <string name="tv_login_fail_cont_unknown">알 수 없는 이유로 로그인에 실패하였습니다. 재시도해주세요</string>
+    <string name="tv_login_fail_cont">Google로부터 아래와 같은 로그인 오류코드로 인해 로그인에 실패하였습니다. 재시도해주세요</string>
+
+    <!-- profile -->
+    <string name="profile_title">의 프로필</string>
+    <string name="tv_profile_comment">코멘트</string>
+    <string name="tv_profile_skill">\n스킬</string>
+    <string name="tv_profile_clear">\n클리어</string>
+    <string name="tv_profile_fc">\n풀콤보</string>
+    <string name="tv_profile_exc">\n엑설런트</string>
+    <string name="tv_profile_cnt">플레이카운트</string>
+
+    <string name="btn_profile_gfskill_target">GF 대상곡</string>
+    <string name="btn_profile_dmskill_target">DM 대상곡</string>
+    <string name="btn_profile_gfskill_all">GF 전곡</string>
+    <string name="btn_profile_dmskill_all">DM 전곡</string>
+    <string name="btn_profile_cnt">카운트 공개</string>
+    <string name="btn_profile_cmt">코멘트 변경</string>
+    <string name="btn_profile_cleartable">클리어테이블</string>
+    <string name="btn_profile_comp">스킬비교</string>
+    <string name="btn_profile_grival">GF라이벌추가</string>
+    <string name="btn_profile_drival">DM라이벌추가</string>
+    <string name="btn_profile_mybest">마이베스트</string>
+
+    <!-- mybest -->
+    <string name="tv_best_cnt">회</string>
+    <string name="btn_best_m">노래</string>
+    <string name="btn_best_p">전패턴</string>
+    <string name="btn_best_g">기타</string>
+    <string name="btn_best_d">드럼</string>
+    <string name="sub_best">의 마이베스트</string>
+
+    <!-- skill -->
+    <string name="skill_title">전 패턴</string>
+    <string name="target_title">대상곡</string>
+    <string name="btn_skill_target">대상곡 보기</string>
+    <string name="btn_skill_goskill">전체 보기</string>
+    <string name="btn_skill_hchange">핫곡 보기</string>
+    <string name="btn_skill_ochange">아더곡 보기</string>
+    <string name="btn_skill_subs">후보곡</string>
+    <string name="tv_skill_target">대상곡</string>
+    <string name="tv_skill_empty">갱신된 데이터가 존재하지 않습니다\nFilter를 사용하여 표시 정보를 변경해보세요</string>
+
+    <string name="btn_skill_category">카테고리 변경</string>
+    <string name="btn_skill_hochange">핫아더 변경</string>
+    <string name="btn_skill_gdchange">기종 변경</string>
+    <string name="btn_skill_pagechange">페이지 변경</string>
+
+    <!-- rank -->
+    <string name="tv_rank_desc">스킬 순으로 랭킹을 표시합니다</string>
+    <string name="btn_rank_gtype">기종 변경</string>
+
+    <!-- Filter -->
+    <string name="filter_title">필터</string>
+    <string name="filter_skilltype_all">전체 패턴</string>
+    <string name="filter_skilltype_target">대상곡</string>
+    <string name="filter_gtype">기종선택</string>
+    <string name="filter_ptype">표시타입</string>
+    <string name="filter_ptype_all">전패턴</string>
+    <string name="filter_ptype_hot">핫곡</string>
+    <string name="filter_ptype_hot2">핫곡후보</string>
+    <string name="filter_ptype_other">아더곡</string>
+    <string name="filter_ptype_other2">아더곡후보</string>
+    <string name="filter_level">레벨</string>
+    <string name="filter_rank">랭크</string>
+    <string name="filter_ver">버전</string>
+    <string name="filter_hot">핫 유무</string>
+    <string name="filter_order">정렬</string>
+
+    <!-- pattern -->
+    <string name="tv_pat_dlg_title">패턴 선택</string>
+
+    <!-- music -->
+    <string name="tv_music_cleartime">클리어</string>
+    <string name="tv_music_combo">콤보</string>
+    <string name="tv_music_rank">랭크</string>
+    <string name="tv_music_rate">달성률</string>
+    <string name="tv_music_score">점수</string>
+    <string name="tv_music_skill">스킬</string>
+
+    <string name="tv_music_cleartime_base">클리어횟수\n0 / 0</string>
+    <string name="tv_music_combo_base">콤보\n0</string>
+    <string name="tv_music_rank_base">랭크\nnone</string>
+    <string name="tv_music_rate_base">달성률\n0%</string>
+    <string name="tv_music_ratetb_base">달성률(TB)\n0%</string>
+    <string name="tv_music_ratetbre_base">달성률(TBRE)\n0%</string>
+    <string name="tv_music_ratemx_base">달성률(MX)\n0%</string>
+    <string name="tv_music_score_base">점수\n0</string>
+    <string name="tv_music_skill_base">스킬\n0.00</string>
+
+    <!-- search -->
+    <string name="dlg_search_music_sel_title">동작 선택</string>
+    <string name="dlg_search_music_sel_prank">패턴 별 랭킹 보기</string>
+    <string name="dlg_search_music_sel_myrecord">내 기록 보기</string>
+    <string name="dlg_search_notlogin">로그인 되지 않음</string>
+    <string name="dlg_search_notlogin_cont">로그인 상태가 아니므로 기록 확인이 불가능합니다</string>
+    <string name="tst_search_notnum">스킬로 검색할 때는 숫자, 소수점 이외의 문자가 있어서는 안됩니다</string>
+
+    <!-- setting -->
+    <string name="set_logout_t">로그아웃</string>
+    <string name="set_logout_s">로그아웃시 위젯이 리셋되며 갱신할 수 없습니다</string>
+    <string name="set_logout_state_notlogin">로그인 상태가 아닙니다</string>
+    <string name="set_wgtbg_t">위젯 배경 색상 및 투명도 설정</string>
+    <string name="set_wgtfontc_t">위젯 글자 색상 설정</string>
+    <string name="set_wgtfonts_t">위젯 글자 크기 설정</string>
+    <string name="set_wgtfonts_s">글자 크기를 지정해주세요 (단위 sp)</string>
+    <string name="set_wgtuitype_t">위젯 UI 타입</string>
+
+    <!-- towerlist -->
+    <string name="tl_title">기타도라의 탑 리스트</string>
+    <string name="tl_gf">GuitarFreaks</string>
+    <string name="tl_dm">DrumMania</string>
+    <string name="tl_sp">Special</string>
+    <string name="tl_notlogin_title">로그인 필요</string>
+    <string name="tl_notlogin_cont">타워 데이터를 보기 위해서는 로그인이 필요합니다</string>
+
+    <!-- towerdetail -->
+    <string name="td_ctower">현재 타워</string>
+    <string name="td_fstatus">층 클리어 상태</string>
+    <string name="td_titlechange">칭호 변경은 GITADORA Info 홈페이지에서 가능합니다</string>
+
+    <string name="towerDmDKDK">DKDK의 탑</string>
+    <string name="towerDmLeftPedal">왼페달의 탑</string>
+    <string name="towerDmNote">처리력의 탑</string>
+    <string name="towerDmFC">풀콤보의 탑 (드럼)</string>
+    <string name="towerGfChord">코드의 탑</string>
+    <string name="towerGfAlter">속주의 탑</string>
+    <string name="towerGfMixed">복합 패턴의 탑</string>
+    <string name="towerGfFc">풀콤보의 탑 (기타)</string>
+
+    <string name="towerSpModelDD">The Day Dream</string>
+
+    <!-- etc -->
+    <string name="action_search">검색</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="title_activity_base_nav">BaseNavActivity</string>
+    <string name="pagedown">◀PAGE</string>
+    <string name="pageup">PAGE▶</string>
+
+    <!-- nav bar-->
+    <string name="nav_header_title">로그인 되어 있지 않음</string>
+    <string name="nav_header_subtitle">개인메뉴 사용을 위해 로그인 해주세요</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

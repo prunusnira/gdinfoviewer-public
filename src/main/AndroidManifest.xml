@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roxyeris.gdinfo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/simplelogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.RecentActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.SkillActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.ClearTableActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.MyBestActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.SRActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.PatternActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.PRActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.MusicActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.TowerListActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.TowerDetailActivity"
+            android:launchMode="singleTask" />
+
+        <receiver
+            android:name=".widget.WidgetProviderType1"
+            android:label="GITADORA Info Profile Type1">
+            <intent-filter>
+                <action android:name="com.roxyeris.gdinfo.widget.WidgetUpdate" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_type1" />
+        </receiver>
+        <receiver
+            android:name=".widget.WidgetProviderType2"
+            android:label="GITADORA Info Profile Type2">
+            <intent-filter>
+                <action android:name="com.roxyeris.gdinfo.widget.WidgetUpdate" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_type2" />
+        </receiver>
+    </application>
+
+</manifest>

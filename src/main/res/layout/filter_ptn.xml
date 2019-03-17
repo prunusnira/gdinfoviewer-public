@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay"
+        android:id="@+id/filter_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_filter_ver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/filter_ver"
+                    android:textSize="24sp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/flex_filter_ver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:flexWrap="wrap">
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF1" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF2/DM1" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF3/DM2" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF4/DM3" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF5/DM4" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF6/DM5" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF7/DM6" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF8/DM7" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF9/DM8" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF10/DM9" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GF11/DM10" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ee'mall" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V2" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V3" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V4" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V5" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM V6" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM XG" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM XG2" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GFDM XG3" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD OD" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD TB" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD TBRE" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD MX" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_ver26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GD EXC" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_filter_hot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/filter_hot"
+                    android:textSize="24sp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/flex_filter_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:flexWrap="wrap">
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_hot_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hot" />
+
+                    <CheckBox
+                        android:id="@+id/chk_filter_hot_o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_filter_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/filter_order"
+                    android:textSize="24sp" />
+
+                <org.ricts.abstractmachine.ui.utils.MultiLineRadioGroup
+                    android:id="@+id/rg_filter_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_titleasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Title ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_titledesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Title ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_verasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Version ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_verdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Version ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gbscasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-G ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gbscdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-G ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gadvasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-G ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gadvdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-G ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gextasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-G ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gextdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-G ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gmasasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-G ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_gmasdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-G ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bbscasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-B ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bbscdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-B ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_badvasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-G ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_badvdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-B ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bextasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-B ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bextdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-B ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bmasasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-B ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_bmasdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-B ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dbscasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-D ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dbscdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BAS-D ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dadvasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-D ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dadvdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADV-D ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dextasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-D ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dextdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXT-D ▼" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dmasasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-D ▲" />
+
+                    <RadioButton
+                        android:id="@+id/radio_filter_order_dmasdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAS-D ▼" />
+
+                </org.ricts.abstractmachine.ui.utils.MultiLineRadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

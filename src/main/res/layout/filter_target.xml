@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|fill"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/filter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCHAIN Skill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_skill_gfall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF All Skill"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_skill_dmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM All Skill"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCHAIN Skill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_target_gfhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_gfother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Other"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_dmhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_dmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Other"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="EXCHAIN Skill Candidate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_target_gfhot_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_gfother_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Other"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_dmhot_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_dmother_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Other"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tri-Boost Skill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_target_tb_gfhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tb_gfother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Other"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tb_dmhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tb_dmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Other"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tri-Boost Re:Evolve Skill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_target_tbre_gfhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tbre_gfother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Other"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tbre_dmhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_tbre_dmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Other"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Matixx Skill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_target_mx_gfhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_mx_gfother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GF Other"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_mx_dmhot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Hot"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_target_mx_dmother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DM Other"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

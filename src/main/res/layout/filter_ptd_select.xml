@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:flexWrap="wrap">
+
+    <Button
+        android:id="@+id/btn_ptd_gbsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAS-G" />
+
+    <Button
+        android:id="@+id/btn_ptd_gadv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADV-G" />
+
+    <Button
+        android:id="@+id/btn_ptd_gext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXT-G" />
+
+    <Button
+        android:id="@+id/btn_ptd_gmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAS-G" />
+
+    <Button
+        android:id="@+id/btn_ptd_bbsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAS-B" />
+
+    <Button
+        android:id="@+id/btn_ptd_badv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADV-B" />
+
+    <Button
+        android:id="@+id/btn_ptd_bext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXT-B" />
+
+    <Button
+        android:id="@+id/btn_ptd_bmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAS-B" />
+
+    <Button
+        android:id="@+id/btn_ptd_dbsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAS-D" />
+
+    <Button
+        android:id="@+id/btn_ptd_dadv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADV-D" />
+
+    <Button
+        android:id="@+id/btn_ptd_dext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXT-D" />
+
+    <Button
+        android:id="@+id/btn_ptd_dmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAS-D" />
+</com.google.android.flexbox.FlexboxLayout>
